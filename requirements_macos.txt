@@ -1,0 +1,10 @@
+tensorflow
+tensorflow-metal
+opencv-python
+
+#Only If you want to use jupyter notebook
+ipykernel
+
+
+#dev 
+matplotlib

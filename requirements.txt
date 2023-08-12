@@ -1,0 +1,8 @@
+tensorflow
+opencv-python
+
+#Only If you want to use jupyter notebook
+ipykernel
+
+#devs
+matplotlib

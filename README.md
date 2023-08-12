@@ -12,3 +12,6 @@ Resumen First architecture tested
 
 ![](docs/first_result.jpg)
 [Complete graphics](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
+
+
+[Complete graphics](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
