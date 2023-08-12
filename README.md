@@ -11,7 +11,11 @@ Resumen First architecture tested
 ![](docs/arc_1.png)
 
 ![](docs/first_result.jpg)
-[Complete graphics](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
+[Complete graphics (Basic)](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
 
 
-[Complete graphics](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
+[Complete graphics (Best)](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
+
+![](./docs/arc_transfer_learning.jpg)
+
+[Complete Graphics (Transfer LEarning)](https://tensorboard.dev/experiment/o7f6pvAMT3KSpX88ge0h1Q/#scalars)
