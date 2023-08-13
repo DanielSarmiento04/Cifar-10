@@ -4,10 +4,21 @@
 
 Welcome to the GitHub repository for our advanced neural network architecture designed to tackle the CIFAR-10 dataset! This repository contains all the necessary code, documentation, and resources to help you understand, implement, and train the neural network model effectively.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Training](#training)
+- [Results](#results)
+- [Reference](#reference)
+- [license](#license)
+
 
 ## Introduction
 
 The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, consisting of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. In this repository, we present a state-of-the-art neural network architecture designed to achieve high accuracy on this challenging dataset. Our architecture leverages the power of deep learning to achieve outstanding results, and we provide all the necessary tools for you to understand, implement, and extend this model.
+
+## Training
+
+[Google Colab](https://colab.research.google.com/drive/13RTWHPjCDT1bu5PZu7Zen5Jww5Mb7PVa?usp=sharing)
 
 ## Results
 
