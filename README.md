@@ -8,7 +8,7 @@ The neural Network is build consider the size of the classes, the kind of object
 
 Resumen First architecture tested 
 
-![](docs/arc_1.png)
+[Architecture 1](docs/arc_1.png)
 
 ![](docs/first_result.jpg)
 [Complete graphics (Basic)](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
@@ -16,7 +16,9 @@ Resumen First architecture tested
 
 [Complete graphics (Best)](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
 
-![](./docs/arc_transfer_learning.jpg)
+![Transfer learning result](./docs/transfer_learning_result.jpg)
+
+[Architecture using transfer learning](docs/model_plot3.png)
 
 [Complete Graphics (Transfer LEarning)](https://tensorboard.dev/experiment/o7f6pvAMT3KSpX88ge0h1Q/#scalars)
 
