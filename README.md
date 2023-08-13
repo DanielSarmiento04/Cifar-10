@@ -13,12 +13,12 @@ Resumen First architecture tested
 ![](docs/first_result.jpg)
 [Complete graphics (Basic)](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
 
-
 [Complete graphics (Best)](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
 
-![Transfer learning result](./docs/transfer_learning_result.jpg)
 
 [Architecture using transfer learning](docs/model_plot3.png)
+![Transfer learning result](./docs/transfer_learning_result.jpg)
+
 
 [Complete Graphics (Transfer LEarning)](https://tensorboard.dev/experiment/o7f6pvAMT3KSpX88ge0h1Q/#scalars)
 

@@ -8,3 +8,8 @@ ipykernel
 
 #dev 
 matplotlib
+
+#api
+fastapi
+uvicorn
+python-multipart
