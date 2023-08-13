@@ -36,7 +36,15 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 
 [Complete Graphics (Transfer LEarning)](https://tensorboard.dev/experiment/o7f6pvAMT3KSpX88ge0h1Q/#scalars)
 
-> Note: 
+> Note: The pre trainer model (use separate) tested are the follow
+> - NASNetMobile
+> - MobileNetV2
+> - MobileNetV3Large
+> - VGG19
+> - VGG16 
+> - DenseNet201
+> - ResNet101
+> The results show an improvement in precision and loss on **VGG19**, **VGG16** , **DenseNet201**, **MobileNetV2**
 
 
 ## Reference
