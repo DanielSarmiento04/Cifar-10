@@ -8,6 +8,7 @@ Welcome to the GitHub repository for our advanced neural network architecture de
 - [Introduction](#introduction)
 - [Training](#training)
 - [Results](#results)
+- [Test yourself](#test-yourself)
 - [Reference](#reference)
 - [license](#license)
 
@@ -46,7 +47,15 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 > - ResNet101
 > The results show an improvement in precision and loss on **VGG19**, **VGG16** , **DenseNet201**, **MobileNetV2**
 
+## Test yourself
 
+```
+    python test.py --model cifar10.h5 --image ./docs/test.jpg
+```
+
+```
+docker run -d --name cifar_10 -p8000:80 danielsarmiento04/cifar10:4
+```
 ## Reference
 1. [Datasets]() - [Learning Multiple Layers of Features from Tiny Images,](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) Alex Krizhevsky, 2009
 2. [Layers Available](https://www.tensorflow.org/api_docs/python/tf/keras/layers)
