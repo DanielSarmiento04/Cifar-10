@@ -32,6 +32,7 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 
 
 2. [Architecture using transfer learning](docs/model_plot3.png)
+
 ![Transfer learning result](./docs/transfer_learning_result.jpg)
 
 
