@@ -12,7 +12,7 @@ class Model:
 
     def __init__(self):
 
-        self.model = tf.keras.models.load_model('cifar.h5')
+        self.model = tf.keras.models.load_model('cifar.keras')
         self.classes = CLASSES
 
     def preprocess_image(self, img:np.ndarray):

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the GitHub repository for our advanced neural network architecture designed to tackle the CIFAR-10 dataset! This repository contains all the necessary code, documentation, and resources to help you understand, implement, and train the neural network model effectively.
+This repository contains all the necessary code, documentation, and resources to help you understand, implement, and train the neural network model effectively.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -23,20 +23,14 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 
 ## Results
 
-1. [Architecture 1](docs/arc_1.png)
 
-![](docs/first_result.jpg)
-[Complete graphics (Basic)](https://tensorboard.dev/experiment/82Hg4m0YQ1uMWkw69qSv6w/#scalars)
+<p align="center">
+  <img src="docs/graph.svg" height ="300px">
+</p>
 
-[Complete graphics (Best)](https://tensorboard.dev/experiment/jhqlZ8dBRtOzxMm9o8wQcw/#scalars)
-
-
-2. [Architecture using transfer learning](docs/model_plot3.png)
-
-![Transfer learning result](./docs/transfer_learning_result.jpg)
-
-
-[Complete Graphics (Transfer LEarning)](https://tensorboard.dev/experiment/o7f6pvAMT3KSpX88ge0h1Q/#scalars)
+<p align="center">
+  <img src="docs/model_sgd.png" height ="300px">
+</p>
 
 > Note: The pre trainer model (use separate) tested are the follow
 > - NASNetMobile
@@ -67,3 +61,7 @@ docker run -d --name cifar_10 -p8000:80 danielsarmiento04/cifar10:4
 ## License
 
 This repository is licensed under the [Apache 2.0](LICENSE) License. 
+
+## Reference 
+
+A. Bäuerle, C. van Onzenoodt and T. Ropinski, "Net2Vis – A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations," in IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 6, pp. 2980-2991, 1 June 2021, doi: 10.1109/TVCG.2021.3057483.
