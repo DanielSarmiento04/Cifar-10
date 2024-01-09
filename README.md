@@ -7,10 +7,11 @@ This repository contains all the necessary code, documentation, and resources to
 ## Table of Contents
 - [Introduction](#introduction)
 - [Training](#training)
+- [Architecture](#architecture)
 - [Results](#results)
 - [Test yourself](#test-yourself)
+- [License](#license)
 - [Reference](#reference)
-- [license](#license)
 
 
 ## Introduction
@@ -19,14 +20,19 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 
 ## Training
 
+We use Google Colab to train this neural network, in this case we use the Nvidia Tesla T4 as GPU
+
+
 [Google Colab](https://colab.research.google.com/drive/13RTWHPjCDT1bu5PZu7Zen5Jww5Mb7PVa?usp=sharing)
 
-## Results
-
+## Architecture 
 
 <p align="center">
   <img src="docs/architecture.jpg">
 </p>
+
+## Results
+
 
 <p align="center">
   <img src="docs/model_sgd.png" height ="300px">
@@ -51,11 +57,6 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 ```
 docker run -d --name cifar_10 -p8000:80 danielsarmiento04/cifar10:4
 ```
-## Reference
-1. [Datasets]() - [Learning Multiple Layers of Features from Tiny Images,](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) Alex Krizhevsky, 2009
-2. [Layers Available](https://www.tensorflow.org/api_docs/python/tf/keras/layers)
-3. [Fundamental Theory](https://books.google.com.co/books?id=RaRbNBqGR1oC&lpg=PA1&ots=2kkwXs9tJ4&dq=build%20a%20neural%20network&lr&hl=es&pg=PA1#v=onepage&q=build%20a%20neural%20network&f=false)
-4. [Course Guide](https://platzi.com/cursos/redes-neuronales-tensorflow/)
 
 
 ## License
@@ -65,3 +66,11 @@ This repository is licensed under the [Apache 2.0](LICENSE) License.
 ## Reference 
 
 A. Bäuerle, C. van Onzenoodt and T. Ropinski, "Net2Vis – A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations," in IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 6, pp. 2980-2991, 1 June 2021, doi: 10.1109/TVCG.2021.3057483.
+
+Krizhevsky, A. (2009). Learning multiple layers of features from tiny images.
+
+Skapura, D. M. (1996). Building neural networks. Addison-Wesley Professional.
+
+TensorFlow Developers. (2023). TensorFlow (v2.15.0). Zenodo. https://doi.org/10.5281/zenodo.10126399
+
+Platzi. (n.d.). Curso Profesional de Redes neuronales con tensorflow. http://platzi.com/cursos/redes-neuronales-tensorflow/. https://platzi.com/cursos/redes-neuronales-tensorflow/ 
