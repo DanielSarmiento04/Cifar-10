@@ -1,5 +1,5 @@
 # Select the base image
-FROM  python:3.10
+FROM  python:3.11
 
 # Set the working directory
 WORKDIR /code
@@ -9,7 +9,7 @@ COPY ./requirements.txt /code/requirements.txt
 
 # Copy the source code
 COPY ./api /code/api
-COPY ./cifar.h5 /code/cifar.h5
+COPY ./cifar_10.keras /code/cifar_10.keras
 COPY ./api/ /code/api/
 COPY ./cifar10/ /code/cifar10/
 

@@ -25,7 +25,7 @@ The CIFAR-10 dataset is a well-known benchmark in the field of computer vision, 
 
 
 <p align="center">
-  <img src="docs/graph.svg" height ="300px">
+  <img src="docs/architecture.jpg">
 </p>
 
 <p align="center">
